@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/oliverjose/shkbot#readme",
   "dependencies": {
+    "moment": "2.20.1",
     "telegraf": "3.17.3"
   }
 }
