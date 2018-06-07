@@ -9,13 +9,12 @@ bot.start( async ctx => {
 })
 
 bot.on('text', async (ctx, next) => {
-    await ctx.reply(`${ctx.update.message.text}, Você gostaria de fazer um orçamento?`)
+    await ctx.reply(`${ctx.update.message.text}!, Você gostaria de fazer um orçamento?`)
     next()
 })
 
-bot.hears('sim', async (ctx, next) => {
+bot.hears('sim', async ctx => {
     await ctx.reply('Otimo, e o que procura?')
-    next()
 })
 bot.hears(['não','nao'], ctx => ctx.reply('Tudo bem, em que posso te ajudar?'))
 
