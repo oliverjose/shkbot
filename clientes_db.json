@@ -1,0 +1,25 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Jose Antonio de Oliveira",
+      "endereco": "Rua Carlos Gomes, 143",
+      "cidade": "Barueri",
+      "uf": "SP"
+    },
+    {
+      "id": "2",
+      "nome": "Cesar Ribeiro",
+      "endereco": "Av Marginal, 7777",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+    {
+      "id": "3",
+      "nome": "Ribeiro",
+      "endereco": "Av Marginal, 7777",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    }
+  ]
+}
